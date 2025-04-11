@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import (
     QDialog, QDialogButtonBox, QGridLayout, QListWidget, QMessageBox, QWidget, QDesktopWidget, QLineEdit
 )
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon  # Import QIcon for setting the window icon
 from theme import get_stylesheet  # Import the stylesheet function
 
 # Configure logging
@@ -23,6 +24,7 @@ class TranslateGUI(QMainWindow):
         super().__init__()
         self.setWindowTitle("Hazmel Translator")
         self.setGeometry(100, 100, 600, 400)
+        self.setWindowIcon(QIcon("../assets/logo.png"))  # Set the app logo
         self.center_window()  # Center the window on the screen
         self.initUI()
         self.apply_stylesheet()  # Apply styles to the UI
