@@ -1,4 +1,5 @@
-# Hazmel Explain
+![Logo](./assets/logo.png)
+# Hazmel Explain 
 
 Translation popup tool directed to help you while reading
 
