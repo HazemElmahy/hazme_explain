@@ -12,6 +12,7 @@ it will give options for the selected word
 between translate, pronounce, image search, ask ai
 
 ![alt text](image.png)
+![alt text](image-1.png)
 
 ## Project Structure
 Backend -> FastAPI
