@@ -140,6 +140,8 @@ class TranslateGUI(QMainWindow):
                 # Open the URL in Firefox
                 firefox_path = "/usr/bin/firefox"  # Update this path if Firefox is installed elsewhere
                 subprocess.run([firefox_path, "-P", "main", url], check=True)
+                self.close()  # Close the application after opening Firefox
+
                 return True  # Indicate success
             else:
                 logging.warning("No URL returned from the API.")
