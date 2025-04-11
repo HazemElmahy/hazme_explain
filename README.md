@@ -1,4 +1,7 @@
-![Logo](./assets/logo.png)
+<p align="center">
+<img src="./assets/logo.png" alt="Logo" width="300" height="300"/>
+</p>
+
 # Hazmel Explain 
 
 Translation popup tool directed to help you while reading
